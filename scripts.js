@@ -49,15 +49,15 @@ buttonW.addEventListener('click', function(){
 });
 
 //BARRAS DE HABILIDADES
-const bars = document.querySelectorAll('.bar');
+// const bars = document.querySelectorAll('.bar');
 
-bars.forEach(bar => {
-    let percent = bar.innerHTML;
-    let percentValue = parseFloat(percent.replace('%',''));
-    let otherPercent = 100 - percentValue;
+// bars.forEach(bar => {
+//     let percent = bar.innerHTML;
+//     let percentValue = parseFloat(percent.replace('%',''));
+//     let otherPercent = 100 - percentValue;
 
-    bar.style.background = `linear-gradient(to right, #1c3a26 ${percentValue}%, #464646 ${otherPercent}%)`;
-});
+//     bar.style.background = `linear-gradient(to right, #1c3a26 ${percentValue}%, #464646 ${otherPercent}%)`;
+// });
 
 //MENU HAMBURGUESA
 let buttomBurguer = document.querySelector('.burguer');
